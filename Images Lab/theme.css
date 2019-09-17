@@ -1,0 +1,54 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+* {
+    box-sizing: border-box;
+}
+  
+.background-image {
+    height: 50%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  
+ 
+.img1 { 
+    background-image: url(img/IMG_0730.jpg); 
+}
+.img2 { 
+    background-image: url(img/IMG_5596.jpeg); 
+}
+.img3 { 
+    background-image: url(img/IMG_5597.jpeg); 
+}
+.img4 { 
+    background-image: url(img/IMG_0981.jpg); 
+}
+.img5 { 
+    background-image: url(img/IMG_5086.jpg); 
+}
+.img6 { 
+    background-image: url(img/IMG_5302.jpg); 
+}
+  
+  
+.background-text {
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.4); 
+    color: white;
+    font-weight: bold;
+    font-size: 80px;
+    border: 10px solid #f1f1f1;
+    position: fixed; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 400px;
+    padding: 20px;
+    text-align: center;
+}
